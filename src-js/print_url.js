@@ -3,7 +3,7 @@ $(document).ready(function()
 	$('#btn').click(function()
 	{	
 		$.ajax({
-			url: 'insert_url.php',
+			url: 'src-php/insert_url.php',
 			
 			data: 
 			{
