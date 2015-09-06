@@ -1,0 +1,8 @@
+<Files .htaccess>
+order allow,deny
+</Files>
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^(\w+)$ ./show_url.php?short_code=$1
