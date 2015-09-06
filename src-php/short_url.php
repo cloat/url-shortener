@@ -1,5 +1,5 @@
 <?php
-	define('BASE_HREF', 'http://' . $_SERVER['HTTP_HOST'] . '/' . 'url-shortener/src-php/');
+	define('BASE_HREF', 'http://' . $_SERVER['HTTP_HOST'] . '/' . 'url-shortener/');
 	
 	
 	class short_url
