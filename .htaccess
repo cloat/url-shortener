@@ -5,4 +5,4 @@ order allow,deny
 Options +FollowSymLinks
 RewriteEngine On
 
-RewriteRule ^(\w+)$ ./show_url.php?short_code=$1
+RewriteRule ^(\w+)$ ./src-php/show_url.php?short_code=$1
